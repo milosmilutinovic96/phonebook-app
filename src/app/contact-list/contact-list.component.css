@@ -1,0 +1,74 @@
+:host {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding-top: 5px;
+    background-color: #f7eee8;
+}
+
+.contact-item {
+    display: flex;
+    padding: 12px 4px;
+    margin: 5px 20px;
+    align-items: center;
+    border-bottom: 2px solid #61717b9c;
+    border-right: 2px solid #61717b9c;
+    background-color: #f5d6c2;
+}
+
+.user-logo {
+    display: inline-block;
+    background-image: url(../../assets/person.svg);
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    border: 2.5px solid #7b6b61;
+    border-radius: 100%;
+}
+
+.delete-btn {
+    display: inline-block;
+    background-image: url(../../assets/delete.svg);
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+}
+
+.delete-btn:hover {
+    width: 32px;
+    height: 32px;
+}
+
+.delete-btn:active {
+    background-color: #f7eee8;
+    border-radius: 50%;
+    border: 2px solid #f7eee8;
+}
+
+.contact-info {
+    flex-grow: 1;
+    padding: 0 12px;
+}
+
+:host::-webkit-scrollbar {
+    width: 6px;
+    padding-top: 10px;
+}
+
+:host::-webkit-scrollbar-track-piece {
+    background-color: #f7eee8;
+}
+
+:host::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7;
+}
+
+:host::-webkit-scrollbar-thumb:hover {
+    background-color: #909090;
+}
+
+.contact-msg {
+    margin: 0 auto;
+    padding: 50px;
+}

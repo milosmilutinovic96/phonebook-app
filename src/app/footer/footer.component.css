@@ -1,0 +1,44 @@
+
+:host {
+    display: block;
+    padding-top: 10px;
+}
+
+div {
+    display: inline-block;
+    width: 50%;
+    height: 44px;
+}
+
+a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+.add-contact {
+    background-image: url(../../assets/person_add.svg);
+}
+
+.contacts {
+    background-image: url(../../assets/list.svg);
+}
+
+.add-contact, .contacts {
+    background-size: 38px 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.add-contact:hover, .contacts:hover {
+    background-size: 42px 42px;
+}
+
+.add-contact:active, .contacts:active {
+    background-color: #f7eee8;
+    border-radius: 50% 50%;
+    background-size: 38px 38px;
+    box-sizing: content-box;
+    padding: 2px;
+}

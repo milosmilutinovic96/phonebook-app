@@ -1,0 +1,10 @@
+<div class="contact-msg" *ngIf="contacts?.length === 0">No contacts</div>
+
+<div class="contact-item" *ngFor="let contact of contacts">
+    <span class="user-logo"></span>
+    <div class="contact-info">
+        <p>{{contact.name}}</p>
+        <p>{{contact.phone}}</p>
+    </div>
+    <span class="delete-btn" (click)="deleteContact(contact)"></span>
+</div>

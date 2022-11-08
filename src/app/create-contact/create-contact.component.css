@@ -1,0 +1,40 @@
+
+
+:host {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7eee8;
+}
+
+h2 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #7b6b61;
+}
+
+input {
+    padding: 12px;
+    width: 300px;
+    margin: 10px;
+    background-color: #f5d6c2;
+    border: 0;
+    border-radius: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 12px 6px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 0;
+    font-weight: 300;
+    border: 2px solid #7b6b61;
+}
+
+button:active {
+    background-color: #7b6b61;
+    color: white;
+}
